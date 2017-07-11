@@ -51,7 +51,6 @@ $(function() {
   // show confetti and reset button when winner declared
   var executeWin = function() {
     // $confetti.css({'z-index': 1, opacity: 1});
-    $reset.removeClass('tmp-hidden');
   };
 
   // take keypress event and move correct player
@@ -74,6 +73,7 @@ $(function() {
   // add event-handlers
   var race = function() {
     $(window).on('keypress', function(event) {
+      $reset.removeClass('tmp-hidden');
       if (!winner) {
         movePlayer(event);
       }
