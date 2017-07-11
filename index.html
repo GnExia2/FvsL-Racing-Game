@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- JS script -->
+  <script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/confetti.js"></script>
+  <!-- set viewport to device width to make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- custom styles -->
+  <link rel="stylesheet" type="text/css" href="main/style.css">
+
+  <title>THE AMAZING RACE!</title>
+</head>
+  <body>
+    <div class ="background-image">
+    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header text-center">
+              <img src="images/Lamborghini-icon.png" width="60"> </img>
+              <h1> &nbsp;&nbsp; THE AMAZING RACE!</h1>
+              <img src="images/ferrari-emblem.jpg" width="100"> </img>
+            </div>
+            <div id="track">
+              <div class="player1" data-key="f"> F</div>
+              <div class ="CenterDivide"> </div>
+              <div class="player2" data-key="l"> L</div>
+            </div>
+            <button class="btn btn-lg btn-reset tmp-hidden" id="reset">Race Again</button>
+          </div>
+        </div>
+      </div>
+    <div id="confetti"></div>
+  </body>
+</html>

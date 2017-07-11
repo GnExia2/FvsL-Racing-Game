@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+body {
+  font-family: 'Racing Sans One', cursive;
+  background-image: url("http://autodatz.com/wp-content/uploads/2017/05/Ferrari-And-Lamborghini-Wallpapers-64-with-Ferrari-And-Lamborghini-Wallpapers.jpg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0 10px;
+}
+
+.header {
+  margin: 50px 0;
+}
+.header * {
+  display: inline-block;
+  vertical-align: top;
+}
+.player1 {
+  background-color: #d80000;
+  border-radius: 50px;
+  font-size: 20px;
+  height: 40px;
+  line-height: 1;
+  margin: 5px 0;
+  padding: 9px 0;
+  position: relative;
+  top:100px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55px;
+}
+
+.player2 {
+  background-color: #000000;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fbff44;
+  height: 40px;
+  line-height: 1;
+  margin: 5px 0;
+  padding: 9px 0;
+  position: relative;
+  top: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55px;
+}
+
+.CenterDivide {
+  background-color: #000000;
+  padding: 3px;
+  position:relative;
+  top:200px
+}
+
+.btn-reset, .btn-reset:focus {
+  background: #ff0000;
+  color: black;
+  left: 0;
+  margin: 30px auto;
+  position: absolute;
+  right: 0;
+  width: 130px;
+  z-index: 2;
+}
+.btn-reset:hover {
+  background-color: #4ecdc4;
+  color: white;
+}
+
+#track {
+  background-color: rgba(114,114,114, 0.95);
+  border-radius: 15px;
+  height: 500px;
+  padding: 5px;
+  z-index: 2
+}
+
+.tmp-hidden {
+  display: none;
+}
+
+#confetti {
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
