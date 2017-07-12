@@ -35,13 +35,13 @@ console.log("sanity check")
 $(function() {
 
   // global variables
-  //$confetti = $('#confetti');
+  $WinAnimation = $('#WinAnimation');
   $reset = $('#reset');
   var winner = null;
 
   // reset to initial state of race
   var raceAgain = function() {
-    //$confetti.css({'z-index': -1, opacity: 0});
+    $WinAnimation.css({'z-index': -1, opacity: 0});
     $reset.addClass('tmp-hidden');
     $('.player1').css({left: 0});
     $('.player2').css({left: 0});
@@ -50,7 +50,7 @@ $(function() {
 
   // show confetti and reset button when winner declared
   var executeWin = function() {
-    // $confetti.css({'z-index': 1, opacity: 1});
+    $WinAnimation.css({'z-index': 1, opacity: 1});
   };
 
   // take keypress event and move correct player
